@@ -11,7 +11,7 @@ defaults:
     shell: bash
 
 env:
-  ROM_URL: https://ghostmirror.hitesh920.workers.dev/0://Samfw.com_SM-A125F_INS_A125FXXU1BUE4_fac.zip
+  ROM_URL: https://www.mediafire.com/file/nq8i4ut3imyivn7/Infinix_Hot_10_X682B_MT6768_V392_210506.zip/file
 
 jobs:
   build:
@@ -29,8 +29,8 @@ jobs:
          working-directory: firmware_dumper
          run: |
               sudo bash setup.sh
-              git config --global user.name "Hitalo"
-              git config --global user.email "40531911+HitaloSama@users.noreply.github.com"
+              git config --global user.name "xoo2001"
+              git config --global user.email "ekora2001@gmail.com"
 
        - name: Setup config envs
          working-directory: firmware_dumper
